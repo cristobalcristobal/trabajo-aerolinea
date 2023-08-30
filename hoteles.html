@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="p-2 m-2 navbar navbar-expand-lg navbar-light bg-primary-custom rounded-3 p-4">
+        <a class="text-secondary-custom navbar-brand fw-bold" href="index.html"> <span class="sr-only mr-5">✈️ </span>Vuela lejos</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav text-secondary-custom">
+            <a class="rounded-pill text-secondary-custom nav-item nav-link fw-bold text-secondary-custom:hover" href="/hoteles.html">Hoteles</a>
+            <a class="nav-item nav-link text-secondary-custom" href="/destinos.html">Destinos</a>
+            <a class="nav-item nav-link text-secondary-custom" href="/contacto.html">Contáctanos</a>
+            <a class="nav-item nav-link text-secondary-custom" href="/faq.html">Preguntas frecuentes</a>
+          </div>
+        </div>
+    </nav>
+
+    <!-- carrusel -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center text-primary-custom mt-4"> 🏨 Hoteles</h1>
+                <div class="container alert alert-primary fw-bold text-center mt-4" role="alert">
+                    A continuación, estos son los hoteles en los que te puedes aloajr. Si necesitas más información, no dudes en <a href="/contacto.html" class="alert-link">contactarnos</a>.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/img/hotel1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Olá Hotel - Providencia</h5>
+                        <p>N.º 1 en relación calidad-precio de 2.881 lugares donde alojarse en Chile</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/hotel2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Le Rêve Boutique Hotel</h5>
+                        <p>Cerca de los puntos de referencia más conocidos de Santiago, como Santuario de la Inmaculada Concepcion (1,9 km) y Bellavista (2,4 km).</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/hotel3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Hotel Boutique Castillo Rojo</h5>
+                        <p>Hotel Boutique Castillo Rojo, una fantástica opción para viajeros como tú.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

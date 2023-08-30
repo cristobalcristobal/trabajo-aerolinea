@@ -1,0 +1,24 @@
+/* styles.css */
+
+/* Color primario */
+.bg-primary-custom {
+    background-color: #1b0088;
+}
+
+.text-primary-custom {
+    color: #1b0088;
+}
+
+.text-secondary-custom {
+    color: #ffffff;
+}
+
+.text-secondary-custom:hover {
+    color: #c5c5c5; /* Mantener el mismo color cuando se hace hover */
+    
+}
+
+/* Color secundario */
+.bg-secondary-custom {
+    background-color: #ffffff;
+}

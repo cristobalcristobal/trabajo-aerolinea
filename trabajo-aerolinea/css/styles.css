@@ -22,3 +22,8 @@
 .bg-secondary-custom {
     background-color: #ffffff;
 }
+
+/* Estilos para el botón navbar-toggler personalizado */
+.custom-toggler .navbar-toggler-icon {
+    background-color: rgb(160, 160, 160); /* Cambia el color del icono a blanco */
+}
